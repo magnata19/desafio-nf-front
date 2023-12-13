@@ -1,0 +1,10 @@
+.card_container {
+  background-color: #5f2222;
+}
+
+.card{
+  background-color: blue;
+  padding: 15px;
+  border-radius: 25px;
+  margin: 15px;
+}
