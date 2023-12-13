@@ -25,6 +25,7 @@ function App() {
           <Route path="/listar" element={<Card vetor={notasFiscais} />} />
           <Route path="/cadastrar" element={<Formulario />} />
         </Routes>
+        <h1> Davidson &copy; 2023</h1>
       </BrowserRouter>
     </>
   );
