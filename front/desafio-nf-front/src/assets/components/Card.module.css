@@ -33,6 +33,15 @@
   cursor: pointer;
   background-color: #111 ;
   color: #fff;
-  transition: all ease-in .5s;
+  transition: all ease-in .2s;
   scale: 1.02;
+}
+
+.card_modelo h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.card_modelo span {
+  color: #888;
 }
