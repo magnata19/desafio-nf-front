@@ -1,11 +1,12 @@
 import React from "react";
 import styles from './Card.module.css'
 
-const Tabela = ({vetor}) => {
+const Card = ({vetor}) => {
   return (
       <div className={styles.card_container}>
     <div className={styles.card_modelo}>
       <h1>NF Validadas</h1>
+      <h3>Valor total das notas:</h3>
       {vetor.map((nota, indice) => (
         <div key={indice} className={styles.card}>
           <p>Nome da empresa: <strong>{nota.nomeDaEmpresa}</strong></p>
@@ -20,4 +21,4 @@ const Tabela = ({vetor}) => {
   );
 };
 
-export default Tabela;
+export default Card;
