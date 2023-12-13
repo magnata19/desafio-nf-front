@@ -3,6 +3,7 @@ import styles from './Formulario.module.css'
 const Formulario = () => {
   return (
     <form className={styles.form_container}>
+      <h1>Cadastrar NF</h1>
       <label>Nome da Empresa</label>
       <input type="text" placeholder='Nome da empresa'/>
       <label>Razão Social</label>

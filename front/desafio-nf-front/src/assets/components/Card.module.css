@@ -1,10 +1,38 @@
 .card_container {
-  background-color: #5f2222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
 }
 
-.card{
-  background-color: blue;
+.card_modelo {
+  margin-top: 15px;
+  padding: 25px;
+  background-color: #0e0d0d;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+.card_modelo h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.card {
+  background-color: #242424;
   padding: 15px;
   border-radius: 25px;
   margin: 15px;
+  width: 300px;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: #111 ;
+  color: #fff;
+  transition: all ease-in .5s;
+  scale: 1.02;
 }
